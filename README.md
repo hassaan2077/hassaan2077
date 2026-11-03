@@ -33,8 +33,4 @@
 
 <p align="center">🌐 HealthSync website: <a href="https://hassaan2077.github.io/HealthSync-Showcase/">hassaan2077.github.io/HealthSync-Showcase</a></p>
 
-## Activity
-
-<img src="assets/activity.svg" width="100%" alt="Contribution activity over the last 12 months" />
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:407BFF,100:1E3A8A&height=100&section=footer" width="100%" />

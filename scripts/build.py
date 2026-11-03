@@ -1,13 +1,7 @@
 """Builds the SVG cards used in the profile README.
 
-Run: python scripts/build.py            (all cards)
-     python scripts/build.py activity   (only assets/activity.svg; run daily by CI)
+Run: python scripts/build.py
 """
-import json
-import os
-import sys
-import urllib.request
-from datetime import date
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -16,7 +10,6 @@ ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
 BLUE = "#407BFF"
 BLUE_SOFT = "#9DBBFF"
-RAMP = ["#161B2E", "#1E3A8A", "#2563EB", "#407BFF", "#7FA6FF"]   # empty -> busiest
 CARD = "#0F1424"
 BORDER = "#22304F"
 TEXT = "#EAF0FF"
@@ -170,58 +163,6 @@ def toolbox_svg():
     return svg(W, H, label, "\n".join(rows))
 
 
-# ---------------------------------------------------------------- activity
-
-def fetch_calendar():
-    query = """query($login:String!){ user(login:$login){ contributionsCollection{ contributionCalendar{
-        totalContributions weeks{ contributionDays{ date contributionCount } } } } } }"""
-    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": query, "variables": {"login": USER}}).encode(),
-        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.load(resp)
-    return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-
-
-def level(count, peak):
-    if count == 0:
-        return 0
-    return min(4, 1 + int(3 * count / max(peak, 1)))
-
-
-def activity_svg(cal):
-    weeks = cal["weeks"]
-    peak = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=0)
-    cell, gap, x0, y0 = 12, 3, 40, 64
-    W = x0 + len(weeks) * (cell + gap) + 24
-    H = y0 + 7 * (cell + gap) + 46
-    body = [f'  <text class="h" x="24" y="38" style="font-size:18px">Activity</text>',
-            f'  <text class="k" x="{W - 24}" y="38" text-anchor="end">{cal["totalContributions"]} contributions in the last year</text>']
-    last_month = None
-    for wi, week in enumerate(weeks):
-        x = x0 + wi * (cell + gap)
-        first = date.fromisoformat(week["contributionDays"][0]["date"])
-        if first.month != last_month and first.day <= 7:
-            body.append(f'  <text class="m" x="{x}" y="{y0 - 8}">{first.strftime("%b")}</text>')
-            last_month = first.month
-        for day in week["contributionDays"]:
-            d = date.fromisoformat(day["date"])
-            y = y0 + ((d.weekday() + 1) % 7) * (cell + gap)
-            body.append(f'  <rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{RAMP[level(day["contributionCount"], peak)]}">'
-                        f'<title>{day["date"]}: {day["contributionCount"]}</title></rect>')
-    for i, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
-        body.append(f'  <text class="m" x="{x0 - 8}" y="{y0 + i * (cell + gap) + 10}" text-anchor="end">{name}</text>')
-    lx = W - 24 - 5 * (cell + gap) - 70
-    body.append(f'  <text class="m" x="{lx}" y="{H - 18}">Less</text>')
-    for i, c in enumerate(RAMP):
-        body.append(f'  <rect x="{lx + 32 + i * (cell + gap)}" y="{H - 28}" width="{cell}" height="{cell}" rx="3" fill="{c}"/>')
-    body.append(f'  <text class="m" x="{lx + 38 + 5 * (cell + gap)}" y="{H - 18}">More</text>')
-    return svg(W, H, f"Contribution activity: {cal['totalContributions']} contributions in the last year", "\n".join(body))
-
-
 def write(name, content):
     ASSETS.mkdir(exist_ok=True)
     (ASSETS / f"{name}.svg").write_text(content, encoding="utf-8")
@@ -229,9 +170,6 @@ def write(name, content):
 
 
 if __name__ == "__main__":
-    only_activity = len(sys.argv) > 1 and sys.argv[1] == "activity"
-    if not only_activity:
-        for p in PROJECTS:
-            write(p["file"], project_svg(p))
-        write("toolbox", toolbox_svg())
-    write("activity", activity_svg(fetch_calendar()))
+    for p in PROJECTS:
+        write(p["file"], project_svg(p))
+    write("toolbox", toolbox_svg())

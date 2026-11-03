@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 250" width="424" height="250" role="img" aria-label="MRI De-blurring: A convolutional autoencoder that turns blurry brain MRI scans into sharp ones.">
+  <style>
+    .h { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #EAF0FF }
+    .k { font: 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    .d { font: 14.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #C2CBE0 }
+    .t { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .g { font: 600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .s { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0; letter-spacing: 1.5px }
+    .m { font: 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121A33"/><stop offset="1" stop-color="#0F1424"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="423" height="249" rx="14" fill="url(#bg)" stroke="#22304F"/>
+  <rect x="24" y="24" width="6" height="26" rx="3" fill="#407BFF"/>
+  <text class="h" x="42" y="45">MRI De-blurring</text>
+  <text class="k" x="42" y="70">Internship · NESCOM</text>
+  <text class="d" x="24" y="104">A convolutional autoencoder that turns</text>
+  <text class="d" x="24" y="126">blurry brain MRI scans into sharp ones.</text>
+  <rect x="24" y="186" width="88" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="68" y="202" text-anchor="middle">TensorFlow</text>
+  <rect x="120.0" y="186" width="52" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="146" y="202" text-anchor="middle">Keras</text>
+  <text class="g" x="400" y="226" text-anchor="end">View project →</text>
+</svg>

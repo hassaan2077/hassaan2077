@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 250" width="856" height="250" role="img" aria-label="HealthSync: A hospital communication app that connects patients, doctors, hospital staff and admins. Real-time chat and video calls, clinical tasks routed to departments, patient health notes, AI brain-MRI analysis and an AI health assistant.">
+  <style>
+    .h { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #EAF0FF }
+    .k { font: 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    .d { font: 14.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #C2CBE0 }
+    .t { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .g { font: 600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .s { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0; letter-spacing: 1.5px }
+    .m { font: 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121A33"/><stop offset="1" stop-color="#0F1424"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="855" height="249" rx="14" fill="url(#bg)" stroke="#22304F"/>
+  <rect x="24" y="24" width="6" height="26" rx="3" fill="#407BFF"/>
+  <text class="h" x="42" y="45">HealthSync</text>
+  <text class="k" x="42" y="70">Final-year project · 1st position · Android app</text>
+  <text class="d" x="24" y="104">A hospital communication app that connects patients, doctors, hospital staff and admins. Real-time chat and</text>
+  <text class="d" x="24" y="126">video calls, clinical tasks routed to departments, patient health notes, AI brain-MRI analysis and an AI</text>
+  <text class="d" x="24" y="148">health assistant.</text>
+  <rect x="24" y="186" width="102" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="75" y="202" text-anchor="middle">React Native</text>
+  <rect x="134.4" y="186" width="74" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="171" y="202" text-anchor="middle">Firebase</text>
+  <rect x="216.0" y="186" width="66" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="249" y="202" text-anchor="middle">PyTorch</text>
+  <rect x="290.4" y="186" width="52" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="316" y="202" text-anchor="middle">Flask</text>
+  <rect x="350.4" y="186" width="146" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="423" y="202" text-anchor="middle">Cloudflare Workers</text>
+  <text class="g" x="832" y="226" text-anchor="end">Website &amp; screenshots →</text>
+</svg>

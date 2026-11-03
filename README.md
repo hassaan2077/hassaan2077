@@ -25,7 +25,7 @@
 
 ## Toolbox
 
-<img src="assets/toolbox.svg" width="100%" alt="Toolbox. Languages: Python, JavaScript, C++, SQL. AI: Machine Learning, RAG, LLMs, LangChain, Hugging Face, Milvus. Frameworks: React, React Native, Firebase, Flask, REST APIs, Docker. Databases: MySQL, Firebase. Tools: Git, GitHub, VS Code, Google Colab, Visual Studio, Figma." />
+<img src="assets/toolbox-v2.svg" width="100%" alt="Toolbox. Languages: Python, JavaScript, C++, C#, SQL. AI / ML: Machine Learning, Deep Learning, TensorFlow, PyTorch. Generative AI: LLMs, RAG, Agentic AI, LangChain, Hugging Face. Frameworks: React, React Native, Flask, FastAPI. Databases: MySQL, Firebase, Milvus. Tools: Docker, Git, GitHub, VS Code, Google Colab, Visual Studio, Figma." />
 
 ## Featured projects
 

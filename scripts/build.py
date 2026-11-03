@@ -142,11 +142,12 @@ def project_svg(p):
 # ---------------------------------------------------------------- toolbox
 
 SKILLS = [
-    ("LANGUAGES", ["Python", "JavaScript", "C++", "SQL"]),
-    ("AI", ["Machine Learning", "RAG", "LLMs", "LangChain", "Hugging Face", "Milvus"]),
-    ("FRAMEWORKS", ["React", "React Native", "Firebase", "Flask", "REST APIs", "Docker"]),
-    ("DATABASES", ["MySQL", "Firebase"]),
-    ("TOOLS", ["Git", "GitHub", "VS Code", "Google Colab", "Visual Studio", "Figma"]),
+    ("LANGUAGES", ["Python", "JavaScript", "C++", "C#", "SQL"]),
+    ("AI / ML", ["Machine Learning", "Deep Learning", "TensorFlow", "PyTorch"]),
+    ("GENERATIVE AI", ["LLMs", "RAG", "Agentic AI", "LangChain", "Hugging Face"]),
+    ("FRAMEWORKS", ["React", "React Native", "Flask", "FastAPI"]),
+    ("DATABASES", ["MySQL", "Firebase", "Milvus"]),
+    ("TOOLS", ["Docker", "Git", "GitHub", "VS Code", "Google Colab", "Visual Studio", "Figma"]),
 ]
 
 
@@ -172,4 +173,4 @@ def write(name, content):
 if __name__ == "__main__":
     for p in PROJECTS:
         write(p["file"], project_svg(p))
-    write("toolbox", toolbox_svg())
+    write("toolbox-v2", toolbox_svg())

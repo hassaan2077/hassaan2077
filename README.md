@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:407BFF&height=180&section=header&text=Hassaan%20Naushad&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%26%20Mobile%20App%20Developer&descAlignY=58&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:407BFF&height=180&section=header&text=Hassaan%20Naushad&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20Engineer%20%26amp%3B%20Mobile%20App%20Developer&descAlignY=58&descSize=18" width="100%" />
 
 <a href="https://github.com/hassaan2077">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=407BFF&center=true&vCenter=true&width=600&lines=Building+AI-powered+apps;RAG+%E2%80%A2+LLMs+%E2%80%A2+LangChain+%E2%80%A2+Milvus;React+Native+%E2%80%A2+Firebase+mobile+apps;HealthSync+%E2%80%94+1st+position+FYP" alt="Typing SVG" />
@@ -19,7 +19,7 @@
 - 🎓 **BS Computer Science**, Sir Syed CASE Institute of Technology, Islamabad (2021–2025). My final-year project **HealthSync** won **1st position**.
 - 💼 **AI Application Developer**, client project (May 2026 – present)
 - 🧠 **AI Engineer Intern** at C@re, Center of Advanced Research in Engineering (Sep – Dec 2025): built a RAG system for question answering over large document collections
-- 🩻 **Machine Learning Intern** at NESCOM (Aug – Oct 2024): deep learning for MRI image restoration
+- 🔬 **Machine Learning Intern** at NESCOM (Aug – Oct 2024): deep learning for MRI image restoration
 - 🌐 **Frontend Developer Intern** at Codsoft (Aug – Sep 2023)
 - ✨ I enjoy building **AI-powered apps**: RAG and LLM systems, and **mobile apps** with React Native
 

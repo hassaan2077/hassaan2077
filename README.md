@@ -18,7 +18,7 @@
 
 - **BS Computer Science**, Sir Syed CASE Institute of Technology, Islamabad (2021–2025). My final-year project **HealthSync** got **1st position** among FYPs.
 - **AI Application Developer**, client project (May 2026 – present)
-- **AI Engineer Intern** at C@re, Center of Advanced Research in Engineering (Sep – Dec 2025): built a RAG system for question answering over large document collections
+- **AI Engineer Intern** at C@RE Pvt Ltd (Center of Advanced Research in Engineering), Sep – Dec 2025: built a RAG system for question answering over large document collections
 - **Machine Learning Intern** at NESCOM (Aug – Oct 2024): deep learning for MRI image restoration
 - **Frontend Developer Intern** at Codsoft (Aug – Sep 2023)
 - I enjoy building **AI-powered apps**: RAG and LLM systems, and **mobile apps** with React Native
@@ -31,6 +31,6 @@
 
 <p align="center"><a href="https://github.com/hassaan2077/HealthSync-Showcase"><img width="100%" src="assets/project-healthsync.svg" alt="HealthSync" /></a><br/><a href="https://github.com/hassaan2077/RAG-System-Showcase"><img width="49%" src="assets/project-rag.svg" alt="Multi-Document RAG" /></a> <a href="https://github.com/hassaan2077/MRI-Deblurring-Showcase"><img width="49%" src="assets/project-mri.svg" alt="MRI De-blurring" /></a><br/><a href="https://github.com/hassaan2077/Fuzzy-Keyword-Matching-Showcase"><img width="49%" src="assets/project-fuzzy.svg" alt="Fuzzy Keyword Matching" /></a> <a href="https://hassaan2077.github.io/Dress-Domain-Showcase/demo/"><img width="49%" src="assets/project-dress.svg" alt="Dress Domain" /></a><br/><a href="https://github.com/hassaan2077/Shop-Management-System-Showcase"><img width="49%" src="assets/project-shop.svg" alt="Shop Management System" /></a></p>
 
-<p align="center">🌐 HealthSync website: <a href="https://hassaan2077.github.io/HealthSync-Showcase/">hassaan2077.github.io/HealthSync-Showcase</a></p>
+<p align="center">HealthSync website: <a href="https://hassaan2077.github.io/HealthSync-Showcase/">hassaan2077.github.io/HealthSync-Showcase</a></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:407BFF,100:1E3A8A&height=100&section=footer" width="100%" />

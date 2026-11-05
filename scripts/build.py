@@ -68,7 +68,7 @@ def tags_row(tags, x, y):
 
 PROJECTS = [
     {
-        "file": "project-healthsync",
+        "file": "project-healthsync-v2",
         "name": "HealthSync",
         "kind": "Final-year project · 1st position · Android app",
         "desc": "A hospital communication app that connects patients, doctors, hospital staff and admins. "

@@ -26,5 +26,5 @@
   <rect x="216.0" y="186" width="66" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="249" y="202" text-anchor="middle">PyTorch</text>
   <rect x="290.4" y="186" width="52" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="316" y="202" text-anchor="middle">Flask</text>
   <rect x="350.4" y="186" width="146" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="423" y="202" text-anchor="middle">Cloudflare Workers</text>
-  <text class="g" x="832" y="226" text-anchor="end">Website &amp; screenshots →</text>
+  <text class="g" x="832" y="226" text-anchor="end">View project →</text>
 </svg>

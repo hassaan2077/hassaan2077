@@ -75,7 +75,7 @@ PROJECTS = [
                 "Real-time chat and video calls, clinical tasks routed to departments, patient health notes, "
                 "AI brain-MRI analysis and an AI health assistant.",
         "tags": ["React Native", "Firebase", "PyTorch", "Flask", "Cloudflare Workers"],
-        "go": "Website & screenshots",
+        "go": "View project",
         "wide": True,
     },
     {

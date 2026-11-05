@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 250" width="424" height="250" role="img" aria-label="Paper Explainer: Give it a research paper link, PDF or name. It explains the paper in easy words and answers questions.">
+  <style>
+    .h { font: 700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #EAF0FF }
+    .k { font: 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    .d { font: 14.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #C2CBE0 }
+    .t { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .g { font: 600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9DBBFF }
+    .s { font: 600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0; letter-spacing: 1.5px }
+    .m { font: 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #8793B0 }
+    
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121A33"/><stop offset="1" stop-color="#0F1424"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="423" height="249" rx="14" fill="url(#bg)" stroke="#22304F"/>
+  <rect x="24" y="24" width="6" height="26" rx="3" fill="#407BFF"/>
+  <text class="h" x="42" y="45">Paper Explainer</text>
+  <text class="k" x="42" y="70">AI · Live demo</text>
+  <text class="d" x="24" y="104">Give it a research paper link, PDF or name.</text>
+  <text class="d" x="24" y="126">It explains the paper in easy words and</text>
+  <text class="d" x="24" y="148">answers questions.</text>
+  <rect x="24" y="186" width="59" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="54" y="202" text-anchor="middle">Python</text>
+  <rect x="91.2" y="186" width="81" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="132" y="202" text-anchor="middle">Streamlit</text>
+  <rect x="180.0" y="186" width="88" height="24" rx="12" fill="#407BFF" fill-opacity=".14" stroke="#407BFF" stroke-opacity=".35"/><text class="t" x="224" y="202" text-anchor="middle">Gemini API</text>
+  <text class="g" x="400" y="226" text-anchor="end">View project →</text>
+</svg>

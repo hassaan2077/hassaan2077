@@ -103,6 +103,14 @@ PROJECTS = [
         "go": "View project",
     },
     {
+        "file": "project-paper",
+        "name": "Paper Explainer",
+        "kind": "AI · Live demo",
+        "desc": "Give it a research paper link, PDF or name. It explains the paper in easy words and answers questions.",
+        "tags": ["Python", "Streamlit", "Gemini API"],
+        "go": "View project",
+    },
+    {
         "file": "project-dress",
         "name": "Dress Domain",
         "kind": "Web · Live demo",
